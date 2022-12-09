@@ -13,7 +13,8 @@ if (userChoice == "Tails" || userChoice == "tails") {
     userChoice = "Heads";
 }
 
-alert(userChoice);
+// alert(userChoice);
+
 randomNumber = Math.round(Math.random());
 alert(randomNumber); // delete
 if (randomNumber == 1) {
@@ -22,7 +23,7 @@ if (randomNumber == 1) {
     computerChoice = "Heads";
 } 
 
-alert(computerChoice);
+// alert(computerChoice);
 
 if (userChoice == computerChoice) {
     alert("You guessed right! The coin flip landed on " + userChoice + ".");
@@ -32,7 +33,9 @@ if (userChoice == computerChoice) {
 
 birthYear = prompt("What is your birthyear?");
 age = currentYear - birthYear;
-alert(age);
+
+// alert(age);
+
 if (age == 21) {
     alert("You are old enough to drink in the US... barely.");
 } else if (age > 21) {
