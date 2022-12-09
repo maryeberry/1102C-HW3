@@ -16,7 +16,9 @@ if (userChoice == "Tails" || userChoice == "tails") {
 // alert(userChoice);
 
 randomNumber = Math.round(Math.random());
-alert(randomNumber); // delete
+
+// alert(randomNumber); // delete
+
 if (randomNumber == 1) {
     computerChoice = "Tails";
 } else {
